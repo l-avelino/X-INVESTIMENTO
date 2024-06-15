@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/tiagoluzh607/CursoVraptor4.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = l-avelino
+	merge = refs/heads/master
+	rebase = false
+[remote "l-avelino"]
+	url = file:///C:\\Users\\l.avelino\\OneDrive - Rolim, Viotti, Goulart, Cardoso Advogados\\Área de Trabalho\\Investimento
+	fetch = +refs/heads/*:refs/remotes/l-avelino/*
